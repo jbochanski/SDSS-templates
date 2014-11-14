@@ -25,6 +25,7 @@ The header for each template is as follows:
 
 SIMPLE  =                    T / Written by IDL:  Thu Sep  7 11:50:33 2006
 WAT1_001= 'wtype=linear label=Wavelength units=angstroms' /
+
 CTYPE1  = 'LINEAR  '           /
 CRVAL1  =              3825.00 /
 CRPIX1  =              1.00000 /
@@ -49,11 +50,11 @@ velocity correction for cross-correllation RV work.  The one flag of interest
 would be NUMOFFIL, which is the number of SDSS spectra that went into a given 
 template spectrum.
 
-There are 4 fits extensions of each template.  They are:
-1 - Mean Normalized Coadded Flux
-2 - Median Normalized Coadded Flux
-3 - Coadded Signal to Noise
-4 - Standard Deviation of Individual Spectra
+There are 4 fits extensions of each template.  They are:\n
+1 - Mean Normalized Coadded Flux\n
+2 - Median Normalized Coadded Flux\n
+3 - Coadded Signal to Noise\n
+4 - Standard Deviation of Individual Spectra\n
 
 
 
