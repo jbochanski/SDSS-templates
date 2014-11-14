@@ -21,39 +21,37 @@ The highest quality data will be the combined (or 'all' template set).
 
 
 
-The header for each template is as follows:
-
-SIMPLE  =                    T / Written by IDL:  Thu Sep  7 11:50:33 2006
-WAT1_001= 'wtype=linear label=Wavelength units=angstroms' /
-
-CTYPE1  = 'LINEAR  '           /
-CRVAL1  =              3825.00 /
-CRPIX1  =              1.00000 /
-CD1_1   =             0.100000 /
-DC-FLAG =              0.00000 /
-VHELIO  =              0.00000 /
-DATE-OBS= '1993-03-17T04:56:38.0' /
-RA      = '12:00:00'           /
-DEC     = '12:00:00'           /
-EPOCH   =              1993.00 /
-OBSERVAT= 'KPNO    '           /
-NUMOFFIL=                   67 /
-NAXIS   =                    2 /
-NAXIS1  =                53750 /Number of positions along axis 1
-NAXIS2  =                    4 /Number of positions along axis 2
-SIMPLE  =                    T /
-BITPIX  =                  -64 / IEEE double precision floating point
-END
+The header for each template is as follows:<br>
+SIMPLE  =                    T / Written by IDL:  Thu Sep  7 11:50:33 2006<br>
+WAT1_001= 'wtype=linear label=Wavelength units=angstroms' /<br>
+CTYPE1  = 'LINEAR  '           /<br>
+CRVAL1  =              3825.00 /<br>
+CRPIX1  =              1.00000 /<br>
+CD1_1   =             0.100000 /<br>
+DC-FLAG =              0.00000 /<br>
+VHELIO  =              0.00000 /<br>
+DATE-OBS= '1993-03-17T04:56:38.0' /<br>
+RA      = '12:00:00'           /<br>
+DEC     = '12:00:00'           /<br>
+EPOCH   =              1993.00 /<br>
+OBSERVAT= 'KPNO    '           /<br>
+NUMOFFIL=                   67 /<br>
+NAXIS   =                    2 /<br>
+NAXIS1  =                53750 /Number of positions along axis 1<br>
+NAXIS2  =                    4 /Number of positions along axis 2<br>
+SIMPLE  =                    T /<br>
+BITPIX  =                  -64 / IEEE double precision floating point<br>
+END<br>
 
 Most of the information is to ensure IRAF does not introduce a heliocentric
 velocity correction for cross-correllation RV work.  The one flag of interest
 would be NUMOFFIL, which is the number of SDSS spectra that went into a given 
 template spectrum.
 
-There are 4 fits extensions of each template.  They are:
-1 - Mean Normalized Coadded Flux
-2 - Median Normalized Coadded Flux
-3 - Coadded Signal to Noise
+There are 4 fits extensions of each template.  They are:<br>
+1 - Mean Normalized Coadded Flux<br>
+2 - Median Normalized Coadded Flux<br>
+3 - Coadded Signal to Noise<br>
 4 - Standard Deviation of Individual Spectra
 
 
