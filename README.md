@@ -62,5 +62,5 @@ I've tarred up the active, inactive and combined sets, as well as all three
 for easy downloading.
 
 
-If you have any questions, please feel free to contact me at bochansk@astro.washington.edu 
+If you have any questions, please feel free to contact me at bochanski@gmail.com
 
