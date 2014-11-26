@@ -1,8 +1,6 @@
 SDSS M Dwarf Template Spectra from [Bochanski et al. (2007)](http://adsabs.harvard.edu/abs/2007AJ....133..531B)
 ==============
 
-
-
 The templates are listed as follows:
 
 type.activity.lines.fits
